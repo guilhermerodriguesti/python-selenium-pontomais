@@ -17,7 +17,7 @@ chmod +x *.sh
 
 ### Uso:
 ```bash
-To run the script type in './run.sh'
+'./run.sh'
 ```
 
 ## 🤝 Contribuições
