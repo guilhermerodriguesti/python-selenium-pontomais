@@ -3,7 +3,7 @@
 ## 🚨 Pré-requisitos
 
 * [Python](https://www.python.org/downloads/)
-* [Selenium Web Driver](http://roadmap.sh);
+* [Selenium Web Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads);
 * USERNAME e PASSWORD em `ponto.py`
 
 
