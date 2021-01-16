@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-USER="guilhermerodriguesti"
+USER=$1
 REPO_GIT="pontomais"
 read -p "Enter commit mensage: " mensage
 echo "Commit mensage: $mensage"
