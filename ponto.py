@@ -18,10 +18,11 @@ def ponto():
 
     logar = driver.find_element_by_xpath("/html/body/ng-view/div/div/form/div/div[4]/div/div/div[3]/button")
     logar.click()
-    time.sleep(10)
+    time.sleep(20)
     
     registrar = driver.find_element_by_xpath('//*[@id="content-wrapper"]/div[2]/div/ng-view/div[2]/button')
-    registrar.click()
+    driver.execute_script("arguments[0].click();", registrar)
+    
     driver.quit()
 
 if __name__ == "__main__":
