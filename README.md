@@ -9,8 +9,8 @@
 
 ### Instalar: 
 ```bash
-git clone repository
-cd dir
+git clone https://github.com/guilhermerodriguesti/pontomais.git
+cd pontomais
 chmod +x *.sh
 
 ```
