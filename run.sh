@@ -6,8 +6,13 @@ function install() {
 }
 
 function ponto() {
-    echo "REGISTER PONTO"
+    echo "REGISTER"
     python3 ponto.py
 }
+function mail() {
+    echo "EMAIL SEND"
+    python3 mail.py
+}
 install
-ponto
+#ponto
+mail
