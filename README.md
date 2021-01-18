@@ -15,15 +15,14 @@ chmod +x *.sh
 touch .env
 echo 'USERNAME="user@email.com"' > .env
 echo 'PASSWORD="pass"' >> .env
-echo 'AWS_ACCESS_KEY_ID="YOUR_AWS_ACCESS_KEY_ID"' >> .env
-echo 'AWS_SECRET_ACCESS_KEY="YOUR_AWS_SECRET_ACCESS_KEY"' >> .env
-echo 'SMTP_SERVER="email-smtp.us-east-1.amazonaws.com"' >> .env
-echo 'EMAIL_ADDRESS="user@email.com"' >> .env
-echo 'EMAIL_CONTATO="user@email.com"' >> .env
 
 ```
 
 ### Uso:
+* Instale e configure os Pré-requisitos
+* Configure as suas credenciais no arquivo `.env`
+* Rode o `run.sh`
+
 ```bash
 './run.sh'
 ```

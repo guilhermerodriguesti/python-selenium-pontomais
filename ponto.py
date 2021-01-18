@@ -24,7 +24,14 @@ def ponto():
     
     registrar = driver.find_element_by_xpath('//*[@id="content-wrapper"]/div[2]/div/ng-view/div[2]/button')
     driver.execute_script("arguments[0].click();", registrar)
+    print(f'Ponto registrado para: {username}')
     
+    #button = driver.find_element_by_class_name("text-center mt15 ng-scope")
+    #button.click()
+    
+    ok = driver.find_element_by_class_name("modal-body pm-alert-body ng-scope")
+    ok.click()
+
     driver.quit()
 
 if __name__ == "__main__":

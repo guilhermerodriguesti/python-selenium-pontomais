@@ -14,5 +14,5 @@ function mail() {
     python3 mail.py
 }
 install
-#ponto
-mail
+ponto
+#mail
