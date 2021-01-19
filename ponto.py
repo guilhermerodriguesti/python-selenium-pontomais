@@ -8,8 +8,8 @@ from selenium.webdriver.common.keys import Keys
 # Credentials
 load_dotenv('.env')
 
-username = os.getenv("USERNAME")
-password = os.getenv("PASSWORD")
+username = os.getenv("USUARIO")
+password = os.getenv("SENHA")
 
 driver = webdriver.Chrome()
 driver.get("https://app.pontomaisweb.com.br/#/acessar")

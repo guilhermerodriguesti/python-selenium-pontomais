@@ -12,9 +12,10 @@
 git clone https://github.com/guilhermerodriguesti/pontomais.git
 cd pontomais
 chmod +x *.sh
+chmod +x *.py
 touch .env
-echo 'USERNAME="user@email.com"' > .env
-echo 'PASSWORD="pass"' >> .env
+echo 'USUARIO="mudar-no@env.com"' > .env
+echo 'SENHA="pass"' >> .env
 
 ```
 
