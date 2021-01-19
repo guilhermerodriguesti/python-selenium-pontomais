@@ -4,7 +4,7 @@
 
 * [Python](https://www.python.org/downloads/)
 * [Selenium Web Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads);
-* USERNAME e PASSWORD em `ponto.py`
+* USUARIO e SENHA em `ponto.py`
 
 
 ### Instalar: 
