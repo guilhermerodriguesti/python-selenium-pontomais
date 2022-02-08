@@ -1,13 +1,22 @@
 <h1 align="center">Registra Ponto.</h1>
 
-## 🚨 Pré-requisitos
-
+## 🚨 Requirements
+* [Acesso ao Sistema ](https://app.pontomaisweb.com.br/)
 * [Python](https://www.python.org/downloads/)
 * [Selenium Web Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads);
 * USUARIO e SENHA em `ponto.py`
 
+# Supported SO
 
-### Instalar: 
+All functions will be available in MAC: 
+| No.  | Base SO  |  Status  |
+| ----------- | ----------- | ----------- |
+| 1     | Mac OS      | OK      |
+| 2    | Others      | I accept contributions      |
+
+You can send PR for this project
+
+### Setup: 
 ```bash
 git clone https://github.com/guilhermerodriguesti/pontomais.git
 cd pontomais
@@ -19,18 +28,18 @@ echo 'SENHA="pass"' >> .env
 
 ```
 
-### Uso:
-* Instale e configure os Pré-requisitos
-* Configure as suas credenciais no arquivo `.env`
-* Rode o `run.sh`
+### Use:
+* Install and configure requirements
+* Configure your credentials `.env`
+* Run `run.sh`
 
 ```bash
 './run.sh'
 ```
 
-## 🤝 Contribuições
+## 🤝 Contributions
 
-Contribuições, problemas e solicitações de recursos são bem-vindos.<br />
+Send a PR.<br />
 
 ## Author
 
